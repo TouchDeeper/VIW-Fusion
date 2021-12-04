@@ -1,0 +1,5 @@
+<launch>
+    <node name="rvizvisualisation" pkg="rviz" type="rviz" output="log" args="-d $(find vins)/../config/vins_rviz_config.rviz" />
+    <node name="viwo" pkg="vins" type="viwo_node" output="log" args="/home/td/slam/vins_fusion_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config_ridgeback.yaml" />
+<!--    <node name="loop_fusion" pkg="loop_fusion" type="loop_fusion_node" output="screen" args="/home/td/slam/vins_fusion_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config_ridgeback.yaml" />-->
+</launch>
