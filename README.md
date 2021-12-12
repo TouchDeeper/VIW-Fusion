@@ -26,7 +26,6 @@ We align the trajectory with the entrance door and exit door to further compare 
 <img src = "https://github.com/TouchDeeper/VIW-Fusion/blob/master/support_files/image/performance_compare_light.png" width = 54% height = 30% />
 <img src = "https://github.com/TouchDeeper/VIW-Fusion/blob/master/support_files/image/performance_compare_dark.png" width = 54% height = 30% />
 
-## Prerequisites
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
 Ubuntu 64-bit 16.04 or 18.04.
