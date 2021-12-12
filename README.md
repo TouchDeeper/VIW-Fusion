@@ -59,11 +59,11 @@ make
 sudo make install
 ```
 
-## 2. Build VINS-Fusion
+## 2. Build VIW-Fusion
 Clone the repository and catkin_make:
 ```
     cd ~/catkin_ws/src
-    git clone https://github.com/HKUST-Aerial-Robotics/VINS-Fusion.git
+    git clone https://github.com/TouchDeeper/VIW-Fusion.git
     cd ../
     catkin_make
     source ~/catkin_ws/devel/setup.bash
