@@ -69,6 +69,16 @@ Clone the repository and catkin_make:
 ```
 (if you fail in this step, try to find another computer with clean system or reinstall Ubuntu and ROS)
 
+## 3. Example
+
+Download dataset [here](https://drive.google.com/drive/folders/1m2msbo3DRGhtINtDE47v-1blyJc0RK0E?usp=sharing).
+```asm
+roslaunch vins vins_rviz.launch
+rosrun vins viwo_node ~/catkin_ws/src/VIW-Fusion/config/realsense_d435i/realsense_stereo_imu_config_ridgeback.yaml 
+(optional) rosrun loop_fusion loop_fusion_node ~/catkin_ws/src/VIW-Fusion/config/realsense_d435i/realsense_stereo_imu_config_ridgeback.yaml
+rosbag play YOUR_DATASET_FOLDER/ridgeback_dark.bag
+```
+
 **-------------------- separation line----------------------------**
 
 # VINS-Fusion
