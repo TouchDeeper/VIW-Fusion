@@ -14,6 +14,7 @@
 #include <cstring>
 #include <eigen3/Eigen/Dense>
 #include <iostream>
+#include <vector>
 
 class Utility
 {
@@ -180,7 +181,7 @@ class Utility
         float largestEigenValue;
         bool first = true;
 
-        for (size_t i=0; i<singularValues.rows(); ++i)
+        for (size_t i=0; i<(size_t)singularValues.rows(); ++i)
         {
             if (first)
             {
