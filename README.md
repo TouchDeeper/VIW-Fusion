@@ -35,22 +35,13 @@ ROS Kinetic or Melodic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
 ### 1.2. **Ceres Solver**
 Follow [Ceres Installation](http://ceres-solver.org/installation.html).
 
-Version: 1.4.0 (Ubuntu16.04)
+Version: 1.4.0
 
 ### 1.3 **Sophus**
-install fmt:
-```asm
-git clone https://github.com/fmtlib/fmt.git
-cd ./fmt
-mkdir build
-cmake ../
-make
-sudo make install
-```
-install Sophus (the latest code in master branch):
 ```asm
 git clone https://github.com/strasdat/Sophus.git
 cd ./Sophus/
+git checkout a0fe89a323e20c42d3cecb590937eb7a06b8343a
 mkdir build
 cd ./build
 cmake ..
@@ -60,12 +51,12 @@ sudo make install
 
 ## 2. Build VIW-Fusion
 Clone the repository and catkin_make:
-```
-    cd ~/catkin_ws/src
-    git clone https://github.com/TouchDeeper/VIW-Fusion.git
-    cd ../
-    catkin_make
-    source ~/catkin_ws/devel/setup.bash
+```asm
+cd ~/catkin_ws/src
+git clone https://github.com/TouchDeeper/VIW-Fusion.git
+cd ../
+catkin_make
+source ~/catkin_ws/devel/setup.bash
 ```
 (if you fail in this step, try to find another computer with clean system or reinstall Ubuntu and ROS)
 

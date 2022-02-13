@@ -23,10 +23,6 @@ message(WARNING "OpenCV_VERSION: ${OpenCV_VERSION}")
 
 find_package(Ceres REQUIRED)
 
-# set(fmt_DIR "/home/yj/bak/packet/fmt/install/lib/cmake/fmt")
-# find_package(fmt REQUIRED)
-# message(WARNING "FMT: ${fmt_LIBRARIES}")
-
 include_directories(${CERES_INCLUDE_DIRS})
 #template sophus
 #set(Sophus_DIR "/home/td/slam/install/sophus/share/sophus/cmake/")
@@ -75,7 +71,7 @@ add_library(vins_lib
         src/initial/initial_sfm.cpp
         src/initial/initial_ex_rotation.cpp
         src/featureTracker/feature_tracker.cpp)
-target_link_libraries(vins_lib ${catkin_LIBRARIES} ${OpenCV_LIBS} ${CERES_LIBRARIES} fmt::fmt)
+target_link_libraries(vins_lib ${catkin_LIBRARIES} ${OpenCV_LIBS} ${CERES_LIBRARIES})
 
 
 add_executable(vins_node src/rosNodeTest.cpp)
