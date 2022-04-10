@@ -70,6 +70,17 @@ rosrun vins viwo_node ~/catkin_ws/src/VIW-Fusion/config/realsense_d435i/realsens
 rosbag play YOUR_DATASET_FOLDER/ridgeback_dark.bag
 ```
 
+## 4. Citation
+If you use this package for your research, a footnote with the link to this repository is appreciated: `github.com/TouchDeeper/VIW-Fusion`, or for citation with BibTeX:
+```
+@misc{ztd2021viwo,
+  title={VIW-Fusion: visual-inertial-wheel fusion odometry.},
+  author={Tingda Zhuang},
+  howpublished={\url{https://github.com/TouchDeeper/VIW-Fusion}},
+  year={2021}
+}
+```
+
 **-------------------- separation line----------------------------**
 
 # VINS-Fusion
