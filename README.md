@@ -35,17 +35,15 @@ ROS Kinetic or Melodic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
 ### 1.2. **Ceres Solver**
 Follow [Ceres Installation](http://ceres-solver.org/installation.html).
 
-Version: 1.4.0
+Version: 1.14.0
 
 ### 1.3 **Sophus**
 ```asm
 git clone https://github.com/strasdat/Sophus.git
-cd ./Sophus/
-git checkout a0fe89a323e20c42d3cecb590937eb7a06b8343a
-mkdir build
-cd ./build
+cd Sophus && git checkout a0fe89a323e20c42d3cecb590937eb7a06b8343a
+mkdir build && cd ./build
 cmake ..
-make
+make -j4
 sudo make install
 ```
 
