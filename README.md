@@ -9,6 +9,9 @@ VIW-Fusion is an optimization-based viusla-inertial-wheel fusion odometry, which
 - online temporal calibration (time offset between camera, IMU and wheel)
 - plane constraint
 
+## Updates
+- Feb 25, 2023 - Released [my thesis in chinese](https://github.com/TouchDeeper/VIW-Fusion/blob/master/Thesis%20-%20TingdaZhuang%20-%20Chinese%20-%20Research%20on%20Multi-sensor%20Fusion%20Localization%20of%20Mobile%20Robot%20Based%20on%20ROS.pdf)
+
 ### Performance in the scene with challenge light
 We tested Mono VIWO in scenes with drastic changes in light, and the parameters between different scenes remained unchanged. The video is below, if you can't access youtube, please try [bilibili](https://www.bilibili.com/video/BV1zg411N75H?share_source=copy_web):
 [![visual-inertial-wheel fusion odometry](https://res.cloudinary.com/marcomontalbano/image/upload/v1638587991/video_to_markdown/images/youtube--HXNaLTJWea4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/HXNaLTJWea4 "visual-inertial-wheel fusion odometry")
